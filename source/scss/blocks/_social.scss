@@ -1,0 +1,42 @@
+.social {
+  display: flex;
+  flex-direction: row;
+
+  &__item {
+    width: 40px;
+    height: 40px;
+    padding: 11px;
+    border: 1px solid $grey;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__icon {
+    &--fb {
+      width: 18px;
+      height: 18px;
+    }
+    &--vk {
+      width: 20px;
+      height: 12px;
+    }
+    &--insta {
+      width: 18px;
+      height: 18px;
+    }
+    &--insta {
+      width: 18px;
+      height: 18px;
+    }
+    &--tw {
+      width: 20px;
+      height: 16px;
+    }
+    &--od {
+      width: 14px;
+      height: 22px;
+    }
+  }
+}

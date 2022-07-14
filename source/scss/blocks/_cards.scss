@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    width: 273px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title, &__price {
+    font-size: $fz-xmain;
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  &__button {
+    width: 130px;
+    height: 40px;
+    padding: 13px 0;
+  }
+}

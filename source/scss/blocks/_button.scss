@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  width: 210px;
+  height: 56px;
+  color: $white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: $fz-main;
+  line-height: 1;
+  cursor: pointer;
+  background-color: $blue;
+  text-decoration: none;
+
+  &--light {
+    background-color: transparent;
+    color: $l-dark;
+    border: 1px solid $blue;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

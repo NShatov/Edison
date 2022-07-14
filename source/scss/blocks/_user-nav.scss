@@ -1,0 +1,17 @@
+.user-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    margin-right: 25px;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 18px;
+    margin-right: 10px;
+  }
+}

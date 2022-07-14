@@ -1,0 +1,25 @@
+.offer {
+  position: absolute;
+  top: 173px;
+  left: 160px;
+  width: 550px;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-size: $fz-xxl;
+    font-weight: 400;
+    font-family: 'Prosto One', cursive;
+    color: $d-blue;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    color: $l-dark;
+    font-size: $fz-xmed;
+    line-height: 30px;
+  }
+}

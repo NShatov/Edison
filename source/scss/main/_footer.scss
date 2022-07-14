@@ -1,0 +1,25 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+
+    &:first-child {
+      flex-basis: 23%;
+    }
+
+    &:last-child {
+      flex-basis: 33%;
+      margin-left: auto;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid $grey;
+  }
+}

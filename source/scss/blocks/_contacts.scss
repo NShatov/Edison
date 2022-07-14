@@ -1,0 +1,10 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__icon {
+    width: 12px;
+    height: 12px;
+  }
+}

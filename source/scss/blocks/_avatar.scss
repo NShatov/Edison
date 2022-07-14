@@ -1,0 +1,18 @@
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 126px;
+
+  &__img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__name {
+    margin-left: 12px;
+    font-size: $fz-xmain;
+    line-height: 1;
+  }
+}

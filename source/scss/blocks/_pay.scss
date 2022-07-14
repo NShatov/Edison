@@ -1,0 +1,21 @@
+.pay {
+  &__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__item {
+    margin-right: 15px;
+    border: 1px solid $grey;
+    border-radius: $brd-rad-small;
+
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 24px;
+  }
+}
